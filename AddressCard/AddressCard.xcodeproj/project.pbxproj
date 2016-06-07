@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31652DA61D0726CF0078A983 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 31652DA51D0726CF0078A983 /* AddressBook.m */; };
 		3181CCA71D070A6D00F0E2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181CCA61D070A6D00F0E2B5 /* main.m */; };
 		3181CCAF1D070AC500F0E2B5 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181CCAE1D070AC500F0E2B5 /* AddressCard.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31652DA41D0726CF0078A983 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		31652DA51D0726CF0078A983 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
 		3181CCA31D070A6D00F0E2B5 /* AddressCard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddressCard; sourceTree = BUILT_PRODUCTS_DIR; };
 		3181CCA61D070A6D00F0E2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3181CCAD1D070AC500F0E2B5 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
@@ -44,7 +47,7 @@
 		3181CC9A1D070A6D00F0E2B5 = {
 			isa = PBXGroup;
 			children = (
-				3181CCA51D070A6D00F0E2B5 /* AddressCard */,
+				3181CCA51D070A6D00F0E2B5 /* Address */,
 				3181CCA41D070A6D00F0E2B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,13 +60,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3181CCA51D070A6D00F0E2B5 /* AddressCard */ = {
+		3181CCA51D070A6D00F0E2B5 /* Address */ = {
 			isa = PBXGroup;
 			children = (
 				3181CCA61D070A6D00F0E2B5 /* main.m */,
 				3181CCAD1D070AC500F0E2B5 /* AddressCard.h */,
 				3181CCAE1D070AC500F0E2B5 /* AddressCard.m */,
+				31652DA41D0726CF0078A983 /* AddressBook.h */,
+				31652DA51D0726CF0078A983 /* AddressBook.m */,
 			);
+			name = Address;
 			path = AddressCard;
 			sourceTree = "<group>";
 		};
@@ -123,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31652DA61D0726CF0078A983 /* AddressBook.m in Sources */,
 				3181CCAF1D070AC500F0E2B5 /* AddressCard.m in Sources */,
 				3181CCA71D070A6D00F0E2B5 /* main.m in Sources */,
 			);
@@ -245,6 +252,7 @@
 				3181CCAC1D070A6D00F0E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
